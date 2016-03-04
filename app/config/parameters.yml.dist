@@ -17,4 +17,4 @@ parameters:
 
     # A secret key that's used to generate certain security-related tokens
     secret:            ThisTokenIsNotSoSecretChangeIt
-    jwt_private_key_file: %kernel.root_dir%/private.pem
+    jwt_private_key_file: %kernel.root_dir%/config/private.pem
